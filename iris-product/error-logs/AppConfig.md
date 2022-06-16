@@ -1,4 +1,4 @@
-<html><ac:structured-macro ac:name="info" ac:schema-version="1"><ac:rich-text-body><p>Updated at <code>2022-06-16T10:12:39.900Z</code> by <code>sergiozc</code></p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="note" ac:schema-version="1"><ac:rich-text-body><p>Do not edit this page manually as its content is updated automatically.</p></ac:rich-text-body></ac:structured-macro> </html>
+<html><ac:structured-macro ac:name="info" ac:schema-version="1"><ac:rich-text-body><p>Updated at <code>2022-06-16T10:19:33.421Z</code> by <code>sergio</code></p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="note" ac:schema-version="1"><ac:rich-text-body><p>Do not edit this page manually as its content is updated automatically.</p></ac:rich-text-body></ac:structured-macro> </html>
 
 ## Error Codes
 
@@ -6,7 +6,7 @@
  
 | Code | Name | Description | Action |
 | ---- | ---- | ----------- | ------ |
-| APPCONF-ERR-1100 | HTTP_ERROR_REQUEST | Request failed and http error has occurred. | Check the http error code for more information and other more specific error logs. |
+| APPCONF-ERR-1105 | HTTP_ERROR_REQUEST | Request failed and http error has occurred. | Check the http error code for more information and other more specific error logs. |
 | APPCONF-ERR-1101 | INVALID_JSON_REQUEST | The format of the JSON is not valid, so, the draft is discarded | Check the format of thenincoming draft, it must be a well-formatted JSON |
 | APPCONF-ERR-1201 | CACHE_ERROR | A cache miss error occurred as the configuration requested by the device does not exist. | Check if requested data are correct and if this configuration exists or it is saved in database. |
 | APPCONF-ERR-1202 | PUBLISHED_ENTRY_ERROR | This configuration cannot be published since it is not previously saved as a draft. Unknown published entry. | Create a draft of this configuration before publish it and check if an entry was created in the database. |
